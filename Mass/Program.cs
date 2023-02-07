@@ -12,8 +12,6 @@ namespace Mass
             int[,] array = new int[n, n];
             int positive_numbers = 0;
             int negative_numbers = 0;
-            int rows = array.GetUpperBound(0) + 1;    // количество строк
-            int columns = array.Length / rows;
             Console.WriteLine("Введите элементы массива:");
             for (int i = 0; i < array.GetLength(0); i++)
             {
